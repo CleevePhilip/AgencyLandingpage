@@ -21,7 +21,7 @@ const Nav = () => {
             <a>Offers</a>
           </li>
         </ul>
-        <button className="btn btn-primary btn-xl">
+        <button className="btn btn-primary btn-outline btn-xl">
           Get Started a project
         </button>
       </nav>
