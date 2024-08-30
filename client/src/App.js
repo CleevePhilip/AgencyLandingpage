@@ -8,6 +8,9 @@ import cowrite from "./assets/conwrite.png";
 import { FaArrowRightLong } from "react-icons/fa6";
 import TestimonialProfile from "./assets/testimonial-profile.png";
 import star from "./assets/star.png";
+import storyImg1 from "./assets/story-img1.png";
+import storyImg2 from "./assets/story-img2.png";
+import storyImg3 from "./assets/story-img3.png";
 
 const App = () => {
   return (
@@ -104,7 +107,7 @@ const App = () => {
           </div>
         </section>
 
-        <section className="flex justify-center items-center gap-[5rem] ">
+        <section className="flex justify-center items-center gap-[5rem] p-10 mt-10 ">
           <div>
             <img src={TestimonialProfile} alt="profile" className="h-[164px]" />
           </div>
@@ -126,7 +129,7 @@ const App = () => {
                 <img src={star} className="h-[1.5rem]" />
               </li>
             </ul>
-            <p className="text-lg font-bold leading-relaxed mt-10">
+            <p className="text-lg font-bold leading-relaxed mt-8">
               “OMG! I cannot believe that I have got a brand new landing page
               after getting Albino. It was super easy to edit and publish.”
             </p>
@@ -135,6 +138,44 @@ const App = () => {
               <p className="text-sm font-bold">Franklin Hicks</p>
               <p className="text-sm"> Web Developer</p>
             </div>
+          </div>
+        </section>
+
+        <section className="flex justify-center items-center gap-5 ">
+          <div className="flex h-full flex-col w-[30rem] gap-5">
+            <div>
+              <p className="text-xs font-bold text-red-600">OUR STORY</p>
+              <p className="text-xl font-bold">
+                We know how everything works and why your business is failing
+                over and over again.
+              </p>{" "}
+            </div>
+            <div>
+              <img src={storyImg1} alt="story-profile" className="h-[565px]" />
+            </div>{" "}
+          </div>
+
+          <div className="flex w-[30%] h-full justify-center items-center">
+            <div className="flex flex-col gap-10">
+              <div className="flex justify-center items-center gap-5">
+                <img
+                  src={storyImg2}
+                  alt="story-profile"
+                  className="h-[332px]"
+                />{" "}
+                <img
+                  src={storyImg3}
+                  alt="story-profile"
+                  className="h-[167px]"
+                />
+              </div>
+              <p className="text-sm font-light leading-relaxed">
+                We share common trends and strategies for improving your rental
+                income and making sure you stay in high demand. With lots of
+                unique blocks, you can easily build a page without coding. Build
+                your next landing page.
+              </p>
+            </div>{" "}
           </div>
         </section>
       </Main>
