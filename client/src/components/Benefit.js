@@ -7,7 +7,7 @@ const Benefit = () => {
   return (
     <>
       <div className="flex h-full justify-between  flex-col w-[30rem] gap-5">
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-5 w-[20rem]">
           <p className="text-xs font-bold text-red-600">OUR STORY</p>
           <p className="text-xl font-bold">
             We know how everything works and why your business is failing over
@@ -30,7 +30,7 @@ const Benefit = () => {
             <img src={storyImg3} alt="story-profile" className="h-[167px]" />
           </div>
           <div className="w-[20rem]  ">
-            <p className="text-sm font-light text-left leading-relaxed ">
+            <p className="text-sm font-base text-left leading-relaxed ">
               We share common trends and strategies for improving your rental
               income and making sure you stay in high demand. With lots of
               unique blocks, you can easily build a page without coding. Build
