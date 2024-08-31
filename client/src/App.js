@@ -9,6 +9,7 @@ import CustomerStats from "./components/CustomerStats";
 import ChooseUs from "./components/ChooseUs";
 import CtaFinal from "./components/CtaFinal";
 import Works from "./components/Works";
+import FinalTestimonial from "./components/FinalTestimonial";
 
 const App = () => {
   return (
@@ -45,6 +46,10 @@ const App = () => {
 
         <section className="flex flex-col justify-center items-center mt-10 p-10">
           <Works />
+        </section>
+
+        <section className="flex justify-center items-center mt-10 p-10 bg-[#473BF0] text-white">
+          <FinalTestimonial />
         </section>
       </Main>
     </>
