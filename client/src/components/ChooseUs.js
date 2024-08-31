@@ -21,7 +21,7 @@ const ChooseUs = () => {
           <figure>
             <img src={wcuProject} alt="project" />
           </figure>
-          <div className="flex flex-col gap-3">
+          <div className="flex flex-col gap-3 ">
             <p className="text-md font-bold">Dedicated project manager</p>
             <p className="text-sm font-base leading-relaxed">
               With lots of unique blocks, you can easily build a page without
