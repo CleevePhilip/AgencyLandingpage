@@ -7,7 +7,7 @@ import Testimonial from "./components/Testimonial";
 import Benefit from "./components/Benefit";
 import CustomerStats from "./components/CustomerStats";
 import ChooseUs from "./components/ChooseUs";
-import CatPage from "./components/CatPage";
+import CtaFinal from "./components/CtaFinal";
 import Works from "./components/Works";
 
 const App = () => {
@@ -40,7 +40,7 @@ const App = () => {
         </section>
 
         <section className="flex flex-col md:flex-row lg:flex-row justify-center items-center p-10  bg-[#F4F7FA] gap-[12rem] border-t-slate-300 ">
-          <CatPage />
+          <CtaFinal />
         </section>
 
         <section className="flex flex-col justify-center items-center mt-10 p-10">

@@ -14,7 +14,7 @@ const About = () => {
         </p>
       </div>
 
-      <div className="flex flex-col items-center gap-5 mt-10 w-full md:flex-row md:justify-around md:w-auto">
+      <div className="flex flex-col items-center gap-5 mt-10 w-full md:flex-row md:justify-around md:w-auto text-white">
         <div className="card bg-[#68D585] w-full md:w-[20rem] shadow-xl p-5">
           <figure>
             <img src={graphic} alt="graphic-design" className="h-[10rem]" />

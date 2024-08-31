@@ -1,6 +1,6 @@
 import React from "react";
 
-const CatPage = () => {
+const CtaFinal = () => {
   return (
     <>
       <div className="flex flex-col gap-5 w-[30rem]">
@@ -17,4 +17,4 @@ const CatPage = () => {
   );
 };
 
-export default CatPage;
+export default CtaFinal;

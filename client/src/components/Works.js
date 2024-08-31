@@ -1,4 +1,8 @@
 import React from "react";
+import csBranding from "../assets/cs-branding.png";
+import csMagazine from "../assets/cs-magazine.png";
+import csWebdev from "../assets/cs-webdev.png";
+import csPackaging from "../assets/cs-packaging.png";
 
 const Works = () => {
   return (
@@ -10,18 +14,35 @@ const Works = () => {
         </p>
       </div>
 
-      <div>
-        <div>
+      <div className="flex justify-center items-center gap-5">
+        <div className="flex flex-col">
           <div>
             <figure>
-              <img />
+              <img src={csBranding} className="h-[540px]" />
             </figure>
             <p>Graphic Design</p>
             <p>Aura Branding Design</p>
           </div>
           <div>
             <figure>
-              <img />
+              <img src={csWebdev} className="h-[346px]" />
+            </figure>
+            <p>Graphic Design</p>
+            <p>Aura Branding Design</p>
+          </div>
+        </div>
+
+        <div className="flex flex-col">
+          <div>
+            <figure>
+              <img src={csPackaging} className="h-[342px]" />
+            </figure>
+            <p>Graphic Design</p>
+            <p>Aura Branding Design</p>
+          </div>
+          <div>
+            <figure>
+              <img src={csMagazine} className="h-[540px]" />
             </figure>
             <p>Graphic Design</p>
             <p>Aura Branding Design</p>
