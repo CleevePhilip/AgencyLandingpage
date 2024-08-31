@@ -10,6 +10,7 @@ import ChooseUs from "./components/ChooseUs";
 import CtaFinal from "./components/CtaFinal";
 import Works from "./components/Works";
 import FinalTestimonial from "./components/FinalTestimonial";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -52,6 +53,10 @@ const App = () => {
           <FinalTestimonial />
         </section>
       </Main>
+
+      <footer className="container bg-[#161C2D] text-white">
+        <Footer />
+      </footer>
     </>
   );
 };
