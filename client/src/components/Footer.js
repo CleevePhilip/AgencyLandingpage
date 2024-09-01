@@ -17,26 +17,26 @@ const Footer = () => {
           <button className="btn btn-primary">Ready launch now</button>
         </div>
       </div>
-      <div className="flex justify-center items-center">
-        <div className="bg-red-400 w-[15rem] h-[15rem]">
-          <p>Brainwave.io</p>
-          <p>
+      <div className="flex justify-center items-center gap-[5rem] w-[75%]">
+        <div className="w-[15rem] h-[15rem]">
+          <p className="text-xl font-bold">Brainwave.io</p>
+          <p className="font-light text-xs mt-5 leading-relaxed">
             With lots of unique blocks, you can easily build a page without
             coding. Build your next landing page.
           </p>
         </div>
-        <div className="bg-red-400 w-[15rem] h-[15rem]">
-          <p>Company</p>
-          <ul>
+        <div className="w-[15rem] h-[15rem]">
+          <p className="font-light text-sm">Company</p>
+          <ul className="flex flex-col gap-2 mt-5 text-sm">
             <li>About us</li>
             <li>Contact us</li>
             <li>Careers</li>
             <li>Press</li>
           </ul>
         </div>
-        <div className="bg-red-400 w-[15rem] h-[15rem]">
-          <p>Product</p>{" "}
-          <ul>
+        <div className=" w-[15rem] h-[15rem]">
+          <p className="font-light text-sm">Product</p>{" "}
+          <ul className="flex flex-col gap-2 mt-5 text-sm">
             <li>Features</li>
             <li>Pricing</li>
             <li>News </li>
@@ -44,18 +44,18 @@ const Footer = () => {
             <li>Support</li>
           </ul>
         </div>
-        <div className="bg-red-400  w-[15rem] h-[15rem]">
-          <p>Services</p>{" "}
-          <ul>
+        <div className=" w-[15rem] h-[15rem]">
+          <p className="font-light text-sm">Services</p>{" "}
+          <ul className="flex flex-col gap-2 mt-5 text-sm">
             <li>Digital Marketing</li>
             <li>Content Writing</li>
             <li>SEO for Business</li>
             <li>UI Design</li>
           </ul>
         </div>
-        <div className="bg-red-400  w-[15rem] h-[15rem]">
-          <p>Legal</p>{" "}
-          <ul>
+        <div className=" w-[15rem] h-[15rem]">
+          <p className="font-light text-sm">Legal</p>{" "}
+          <ul className="flex flex-col gap-2 mt-5 text-sm">
             <li>Privacy Policy</li>
             <li>Terms & Condition</li>
             <li>SEO for Business</li>
