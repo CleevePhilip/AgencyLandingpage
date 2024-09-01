@@ -53,8 +53,7 @@ const App = () => {
           <FinalTestimonial />
         </section>
       </Main>
-
-      <footer className="container bg-[#161C2D] text-white">
+      <footer className="container flex flex-col justify-center items-center bg-[#161C2D] text-white">
         <Footer />
       </footer>
     </>
