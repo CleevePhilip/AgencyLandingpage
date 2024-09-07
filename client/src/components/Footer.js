@@ -1,5 +1,8 @@
 import React from "react";
-
+import { IoLogoFacebook } from "react-icons/io";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa6";
 const Footer = () => {
   return (
     <>
@@ -18,12 +21,37 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex justify-center items-center gap-[5rem] w-[75%]">
-        <div className="w-[15rem] h-[15rem]">
+        <div className="w-[15rem] h-[15rem] flex flex-col gap-3 mb-2">
           <p className="text-xl font-bold">Brainwave.io</p>
-          <p className="font-light text-xs mt-5 leading-relaxed">
+          <p className="font-light text-xs  leading-relaxed">
             With lots of unique blocks, you can easily build a page without
             coding. Build your next landing page.
           </p>
+          <ul className="flex justify-start items-center gap-3">
+            <li>
+              <i>
+                <FaXTwitter />
+              </i>
+            </li>
+            <li>
+              <i>
+                {" "}
+                <i>
+                  <IoLogoFacebook />
+                </i>
+              </i>
+            </li>
+            <li>
+              <i>
+                <FaInstagram />
+              </i>
+            </li>{" "}
+            <li>
+              <i>
+                <FaLinkedin />
+              </i>
+            </li>
+          </ul>
         </div>
         <div className="w-[15rem] h-[15rem]">
           <p className="font-light text-sm">Company</p>
