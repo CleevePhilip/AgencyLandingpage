@@ -41,7 +41,7 @@ const App = () => {
           <ChooseUs />
         </section>
 
-        <section className="flex flex-col md:flex-row lg:flex-row justify-center items-center p-10  bg-[#F4F7FA] gap-[12rem] border-t-slate-300 ">
+        <section className="flex flex-col md:flex-row lg:flex-row justify-center items-center p-10  bg-[#F4F7FA] gap-3 lg:gap-[12rem] border-t-slate-300 ">
           <CtaFinal />
         </section>
 

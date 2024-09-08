@@ -3,7 +3,7 @@ import React from "react";
 const CtaFinal = () => {
   return (
     <>
-      <div className="flex flex-col gap-5 w-[30rem]">
+      <div className="flex flex-col gap-5 lg:w-[30rem]">
         <p className="text-xl font-bold">Ready to launch your next project?</p>
         <p className="text-base font-light">
           With lots of unique blocks, you can easily build a page without
