@@ -4,7 +4,7 @@ import hero from "../assets/hero.png";
 const Home = () => {
   return (
     <>
-      <div className="w-full md:w-[30rem]">
+      <div className="w-full md:w-[30rem] flex flex-col justify-center  items-center p-5 lg:items-start ">
         <p className="text-[#F64B4B] text-sm font-bold">
           LET'S SHIFT YOUR BUSINESS
         </p>
@@ -19,8 +19,9 @@ const Home = () => {
           Get Started with the project
         </button>
       </div>
-      <div className="w-full md:w-auto">
-        <img src={hero} alt="hero-img" className="h-[250px] md:h-[400px]" />
+
+      <div className="w-full md:w-auto flex items-center justify-center">
+        <img src={hero} alt="hero-img" className="h-[250px] md:h-[400px] " />
       </div>
     </>
   );
