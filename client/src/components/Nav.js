@@ -4,9 +4,9 @@ const Nav = () => {
   return (
     <>
       <div className="container flex justify-center items-center">
-        <div className="navbar flex justify-between items-center bg-base-100 w-[68%] gap-[10rem] relative">
+        <div className="navbar flex justify-between items-center bg-base-100 lg:w-[68%] lg:gap-[10rem]  mr-5 lg:mr-0">
           {" "}
-          <div className="dropdown lg:hidden ">
+          <div className="dropdown lg:hidden navbar-start ">
             <div tabIndex={0} role="button" className="btn btn-ghost">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -60,8 +60,8 @@ const Nav = () => {
               </li>
             </ul>
           </div>
-          <div className="navbar-end">
-            <button className="btn btn-primary btn-outline btn-xl">
+          <div className="navbar-end ">
+            <button className="btn btn-primary btn-outline btn-xl ">
               Get Started a project
             </button>
           </div>
