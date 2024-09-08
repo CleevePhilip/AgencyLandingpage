@@ -29,7 +29,7 @@ const App = () => {
           <Testimonial />
         </section>
 
-        <section className="flex justify-center items-center gap-10 mt-10 p-10">
+        <section className="flex justify-center flex-col lg:flex-row  items-center gap-10 mt-10 p-10">
           <Benefit />
         </section>
 

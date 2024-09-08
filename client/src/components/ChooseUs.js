@@ -11,12 +11,12 @@ const ChooseUs = () => {
         <p className="text-sm text-red-600 font-bold uppercase">
           Why choose us
         </p>
-        <p className="font-bold text-2xl">
+        <p className="font-bold text-2xl text-center">
           People choose us because we serve the best for everyone
         </p>
       </div>
 
-      <div className="grid grid-cols-2 grid-rows-2 justify-center items-center gap-[5rem] p-10 mt-10">
+      <div className="grid lg:grid-cols-2 lg:grid-rows-2 justify-center items-center gap-[5rem] grid-cols-1 grid-rows-4  mt-10 ">
         <div className="w-96 flex justify-center items-center gap-5">
           <figure>
             <img src={wcuProject} alt="project" />
