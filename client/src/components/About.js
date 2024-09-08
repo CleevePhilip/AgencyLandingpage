@@ -2,6 +2,7 @@ import React from "react";
 import graphic from "../assets/graphic.png";
 import webdev from "../assets/webdev.png";
 import cowrite from "../assets/conwrite.png";
+import groupGreen from "../assets/group-green.png";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 const About = () => {
@@ -15,7 +16,7 @@ const About = () => {
       </div>
 
       <div className="flex flex-col items-center gap-5 mt-10 w-full md:flex-row md:justify-around md:w-auto text-white">
-        <div className="card bg-[#68D585] w-full md:w-[20rem] shadow-xl p-5">
+        <div className="card   bg-[#68D585] w-full md:w-[20rem] shadow-xl p-5">
           <figure>
             <img src={graphic} alt="graphic-design" className="h-[10rem]" />
           </figure>
@@ -25,7 +26,7 @@ const About = () => {
               With lots of unique blocks, you can easily build a page without
               coding. Build your next landing page.
             </p>
-            <div className="card-actions justify-center mt-5">
+            <div className="card-actions justify-center mt-5 ">
               <a className="flex items-center justify-center gap-3">
                 Learn More <FaArrowRightLong />
               </a>
@@ -51,7 +52,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="card bg-[#FF7171] w-full md:w-[20rem] shadow-xl p-5">
+        <div className="card z-10 flex bg-[#FF7171] w-full md:w-[20rem] shadow-xl p-5 relative">
           <figure>
             <img src={cowrite} alt="creative-writing" className="h-[10rem]" />
           </figure>
@@ -67,6 +68,10 @@ const About = () => {
               </a>
             </div>
           </div>
+          <img
+            src={groupGreen}
+            className="absolute  bottom-[-30px] right-[-50px] z-[0px] w-[10rem]"
+          />
         </div>
       </div>
     </>

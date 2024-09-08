@@ -1,5 +1,8 @@
 import React from "react";
 import hero from "../assets/hero.png";
+import fillBlack from "../assets/fill-black.png";
+import circle from "../assets/circle.png";
+import wave from "../assets/wave.png";
 
 const Home = () => {
   return (
@@ -20,8 +23,15 @@ const Home = () => {
         </button>
       </div>
 
-      <div className="w-full md:w-auto flex items-center justify-center">
-        <img src={hero} alt="hero-img" className="h-[250px] md:h-[400px] " />
+      <div className="w-full md:w-auto flex items-center justify-center relative">
+        <img
+          src={hero}
+          alt="hero-img"
+          className="h-[250px] md:h-[400px] z-10"
+        />
+        <img src={fillBlack} className="h-[109px] absolute top-0 left-0 z-0" />
+        <img src={circle} className="h-[107px] absolute bottom-0 left-0 z-20" />
+        <img src={wave} className="h-[80px] absolute bottom-5 right-10 z-20" />
       </div>
     </>
   );
