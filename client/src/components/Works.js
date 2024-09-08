@@ -15,7 +15,7 @@ const Works = () => {
         </p>
       </div>
 
-      <div className="flex justify-center items-center gap-[3rem]">
+      <div className="flex justify-center flex-col lg:flex-row items-center gap-[3rem]">
         <div className="flex flex-col">
           <div>
             <figure>
@@ -58,7 +58,7 @@ const Works = () => {
           </div>
         </div>
       </div>
-      <a className="flex items-center justify-center gap-3 m-10 p-10 text-[#473BF0] text-lg">
+      <a className="flex items-center justify-center lg:gap-3 gap-2 lg:m-10 lg:p-10 text-[#473BF0] text-lg">
         See all Works <FaArrowRightLong className="text-[#473BF0]" />
       </a>
     </>
